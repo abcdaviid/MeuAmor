@@ -1,0 +1,115 @@
+/* Estilo do body para centralizar todo o conteúdo da página */
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #7992ff8a;
+    margin: 0;
+    padding: 30px; /* Adiciona espaçamento em torno da página */
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+}
+
+/* Ajuste do contêiner para centralizar o conteúdo */
+header .container {
+    width: 100%;
+    max-width: 1200px; /* Define um limite para a largura */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Alinha e ajusta a navegação */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0;
+}
+
+/* Estilos do título */
+h2 {
+    background-color: #eec0df;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    border: 2px solid #f1c6e4;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ajuste de estilo para personagens */
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+/* Imagens de personagens dentro do container */
+.personagem img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block; /* Garante que a imagem se comporte corretamente dentro do container */
+    margin-bottom: 10px; /* Espaçamento entre imagem e descrição */
+}
+
+/* Comentários ou descrições abaixo das imagens */
+.personagem p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 0px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #ddd; /* Linha separando o comentário */
+}
+
+/* Estilo dos parágrafos gerais */
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Estilos da galeria de personagens */
+.personagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px;
+    margin: 0 auto;
+    width: 40%; /* Limita a largura da galeria */
+    justify-items: center; /* Garante que os itens fiquem centralizados dentro das colunas */
+}
+
+/* Estilo da carta centralizada */
+.carta {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 20px auto;
+    border: 1px solid #e4ded7;
+}
